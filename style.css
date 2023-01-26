@@ -4,18 +4,21 @@
 }
 
 .header{
-    width: 1600px;
+    width: 1525px;
     height: 808px;
     background-image: url(images/banner/banner3.png);
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     
 }
 
 .banner{
-    box-sizing: content-box;
     width: 525px;
-    padding: 260px 0px;
-    margin-left: 820px;
+    margin-right: 150px;
 }
+
 
 .banner-heading{
     font-weight: 700;
@@ -52,7 +55,7 @@
 }
  
 main{
-    margin: 0px 260px;
+    margin: 0px 200px;
 }
 
 .failure-section{
@@ -62,23 +65,33 @@ main{
     align-items: center;
 }
 
+.failure-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+
 .failure-section-description{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .failure-section-list{
-    padding: 0px 0px;
+    width: 416px;
+    height:160px;
 }
 
-ul li{
+ul{
     list-style: none;
-    text-align: left;
+    padding-left: 0%;
     
 
 }
 .fa-check{
     color: rgb(171, 255, 87);
+    margin-right: 10px;
 }
 
 .my-plan{
@@ -97,7 +110,7 @@ ul li{
 .my-plan-icons{
     margin-top: 60px;
     display: flex;
-    gap: 200px;
+    gap: 250px;
 }
 
 
@@ -108,5 +121,52 @@ ul li{
     height: 300px;
     left: 230px;
     top: 2221.96px;
+    margin-top: 60px;
 }
 
+.gradient-header{
+    padding: 70px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.gradient-button{
+    margin: 20px 70px;
+    color: #005FAC;
+    padding: 20px 30px;
+}
+
+.footer-section{
+    margin-top: 130px;
+    width: 1525px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #151414;
+    
+}
+
+.footer-section-left{
+    width: 350px;
+    height: 217px;
+    
+}
+
+.footer-header{
+    color: #F8F8F8;
+
+
+}
+
+.footer-section-description{
+    margin-top: 20px;
+    color:#F8F8F8;
+}
+
+.footer-section-right{
+    width: 350px;
+    height: 217px;
+}
