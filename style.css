@@ -163,10 +163,25 @@ ul{
 
 .footer-section-description{
     margin-top: 20px;
+    margin-bottom: 20px;
     color:#F8F8F8;
 }
 
 .footer-section-right{
     width: 350px;
     height: 217px;
+}
+
+.input-heading{
+    color: #FFFFFF;
+    
+}
+
+.input-email{
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color:#FFFFFF ;
+    background-color: #151414;
+    padding-right: 50px;
+    padding: 10px;
 }
