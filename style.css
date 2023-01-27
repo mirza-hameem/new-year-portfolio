@@ -65,6 +65,12 @@ main{
     align-items: center;
 }
 
+.failure-section-container{
+    width: 416px;
+    height: 400px;
+
+}
+
 .failure-section-title{
     font-weight: 700;
     font-size: 40px;
@@ -76,11 +82,17 @@ main{
 .failure-section-description{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .failure-section-list{
     width: 416px;
     height:160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 ul{
@@ -125,7 +137,7 @@ ul{
 }
 
 .gradient-header{
-    padding: 70px;
+    padding: 60px;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
@@ -133,9 +145,15 @@ ul{
 }
 
 .gradient-button{
-    margin: 20px 70px;
+    margin: 5px 70px;
     color: #005FAC;
     padding: 20px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    border-width:0;
 }
 
 .footer-section{
@@ -157,14 +175,27 @@ ul{
 
 .footer-header{
     color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
 
 
 }
 
 .footer-section-description{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color:#F8F8F8;
+    font-weight: 400;
+    size: 16px;
+    line-height: 26px;
+}
+
+.footer-section-icon{
+    width: 175px;
+    height: 46px;
+    display: flex;
+    gap: 20px;    
 }
 
 .footer-section-right{
@@ -182,6 +213,24 @@ ul{
     border: 1px solid;
     border-color:#FFFFFF ;
     background-color: #151414;
-    padding-right: 50px;
-    padding: 10px;
+    width: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer-btn{
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-width: 0;
 }
