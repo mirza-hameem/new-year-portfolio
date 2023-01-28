@@ -95,9 +95,8 @@ main{
 ul{
     list-style: none;
     padding-left: 0%;
-    
-
 }
+
 .fa-check{
     color: rgb(171, 255, 87);
     margin-right: 10px;
@@ -124,9 +123,7 @@ ul{
 .my-plan-subicons{
     width: 300px;
     height: 180px;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 .my-plan-icons-title{
